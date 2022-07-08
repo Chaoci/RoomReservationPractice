@@ -1,0 +1,110 @@
+.body{
+    width: 100%;
+}
+.wrap{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image:url("https://github.com/Chaoci/Timer/blob/main/bg_pho_001.png.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.whole-logo{
+    .logo{
+        font-size: 72px;
+        color:#FFFFFF;
+        font-family: 'BakerSignetBT-Roman';
+        position: absolute;
+        top: 162px;
+        left: 201px;
+    }
+    .box1{
+        width: 75px;
+        height: 75px;
+        background: transparent linear-gradient(180deg, #D6D6D6 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+        border: 1px solid #FFFFFF;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 100;
+        position: absolute;
+        top: 162px;
+        left: 372px;
+        span::before{  //LOGO圖片的斜線製作
+            position:absolute;
+            content:"";
+            top:11px;
+            left: -4px;
+            background: #ffffff;
+            width: 34%;
+            height: 1px;
+            transform:rotateZ(55deg) scale(1.2);
+        }
+    }
+    .box2{
+        width: 76px;
+        height: 76px;
+        position:absolute;
+        top: 186px;
+        left: 390px;
+        border: 1px solid #FFFFFF;
+        span::after{  //LOGO圖片的斜線製作
+            position:absolute;
+            content:"";
+            bottom: 11px;
+            right:-4px;
+            background: #ffffff;
+            width: 35%;
+            height: 1px;
+            transform:rotateZ(55deg) scale(1.2);
+        }
+    }
+}
+.main-pic{
+    position: absolute;
+    width: 337px;
+    height: 280px;
+    top: 262px;
+    left: 466px;
+}
+.selection{
+    position: absolute;
+    padding-top: 5px;
+    top:262px;
+    left: 820px;
+    font-size: 20px;
+    font-weight: 100;
+    li{
+        margin-bottom: 30px;
+    }
+    a{
+        color:#FFFFFF;
+        &:hover ,&:active{
+            font-style: italic;
+            font-weight: 900;
+        }
+    }
+}
+
+.booking-box{
+    position: absolute;
+    top: 542px;
+    left: 803px;
+    width: 276px;
+    height: 151px;
+    background: #39454E99 0% 0% no-repeat padding-box;
+    text-indent: 80px;
+    line-height: 145px;
+    a{
+        font-size: 40px;
+        color: #FFFFFF;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
